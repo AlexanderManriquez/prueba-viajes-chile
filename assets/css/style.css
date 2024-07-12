@@ -4,6 +4,18 @@ body {
     color: white;
 }
 
+.navbar {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar.bg-dark {
+    background-color: #343a40 !important;
+}
+
+.navbar.shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
 .titulo {
     font-size: 2rem;
     font-weight: bold;
